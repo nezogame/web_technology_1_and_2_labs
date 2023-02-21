@@ -1,0 +1,25 @@
+body {
+    background-color: #f1e0c5;
+    background-image: -webkit-repeating-radial-gradient(circle,
+            #e6d3b4, #e0d0b8 50%, #e0d0b8 100%);
+    background-image: repeating-radial-gradient(circle,
+            #ecd8b9, #e0d0b8 50%, #e0d0b8 100%);
+    background-size: 10px 10px;
+}
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    /* to keep proportions */
+    height: auto;
+    /* to keep proportions */
+    max-width: 100%;
+    /* not to stand out from div */
+    max-height: 100%;
+    /* not to stand out from div */
+    margin: auto auto 0;
+    /* position to bottom and center */
+}
