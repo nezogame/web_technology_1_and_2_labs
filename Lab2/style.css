@@ -1,0 +1,166 @@
+.text{
+    color:#215243;
+
+}
+body{
+    width: auto;
+    height: auto;
+    background: antiquewhite;
+}
+h1{
+    left: 200px;
+    padding-left: 40px;
+    width: 200px;
+    height: 50px;
+    margin-left: 165px;
+    border: 40px;
+    border-style: groove;
+    border-radius: 25px;
+    text-shadow: 13px;
+
+}
+h2 {
+    color: blue !important;
+    font-size: 36px;
+}
+p {
+    font-size: 24px;
+    size: 300px;
+    position:fixed;
+        top: 100px;
+        left: 500px;
+    text-align: center;
+    color: red;
+}
+
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+div.relative {
+    position: relative;
+    left: 30px;
+    width:fit-content;
+    border: 3px solid #73AD21;
+}
+
+
+div {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#div-1 {
+
+    border-color: #215243;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content:top;
+    width: 100px;
+    height: 50px;
+    font-size: 34px;
+
+    overflow: scroll;
+
+    background-color: red;
+    float: right;
+    margin-top: -100px;
+}
+
+#div-2 {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 150px;
+    border-style: dashed;
+    border-color:#FFBF00;
+    border-width: 4px;
+    width: 300px;
+    height: 150px;
+    background-color: #0000ff;
+    position: absolute;
+    text-align: center;
+    top: 360px;
+    left: 850px;
+
+}
+
+#div-3 {
+    width: 250px;
+    height: 120px;
+    border-style:double;
+    border-width: 10px;
+    background-color: #16324f;
+    border-color: #649500;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+
+.block div {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #c974e2;
+}
+
+.center {
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility:visible;
+}
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+div > img{
+    position: relative;
+    left: 850px;
+    top: -500px;
+    margin: 100px;
+    padding: 100px;
+    visibility: show;
+}
+.inline {
+    position: relative;
+    left: 55%;
+    top: -550px;
+    
+}
+
+div::first-letter{
+    color:#FFBF00;
+    font-size : 21px;
+}
+
+
+a:hover{
+    color: #8a1d1d;
+    font-size: 20px;
+    border-style: dotted;
+    border-bottom: #649500;
+}

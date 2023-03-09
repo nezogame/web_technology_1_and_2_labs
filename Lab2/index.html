@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Paragraph 1</title>
+    <style>
+        @import "import.css" print;
+        .head{
+            background: rgb(196, 195, 150);
+            color:brown;
+            width: fit-content;
+            height: fit-content;
+            position:absolute;
+            left: 500px;
+        }
+        h3{
+            width: fit-content;
+            height: fit-content;
+            background: rgb(3, 168, 11) !important;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 > атрибут h1 </h1>
+    <h2 class = "head"> атрибут h2 </h2>
+    <!-- Example of usage !important (class for h3 in line 17-21) -->
+    <h3 style="color: blue; font-size: 52px; background: red; position: relative; left: 20px;">
+        Заголовок
+    </h3>
+    <p > pamparam </p>
+    <div  class = "relative">
+        This &lt;div&gt; element has position: static;
+    </div>
+    <div id="div-1"> firsrt block</div>
+    <div id="div-2">second block</div>
+    <div id="div-3">third block</div>
+    <span class="block">
+        <div class="top-left">top-left</div>
+        <div class=" top-right">top-right</div>
+        <div class="center"> center</div>
+        <div class=" bottom-left">bottom-left</div>
+        <div class=" bottom-right">bottom-right</div>
+    </div>
+    <span class ="inline" style ="display:inline"> it is 
+        image <img src="C:\Users\denyss\OneDrive\Изображения\bgTask1.jpg" alt="Advertisement"> with inline style
+    </span>
+    <a href="https://git-scm.com/" style="position: relative;left: 200px; top: -200px">Some link</a>
+</body>
+</html>
