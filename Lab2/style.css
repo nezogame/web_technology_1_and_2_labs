@@ -59,7 +59,7 @@ div {
     height: 50px;
     font-size: 34px;
 
-    overflow: scroll;
+    overflow: auto;
 
     background-color: red;
     float: right;
